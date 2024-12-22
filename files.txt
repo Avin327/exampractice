@@ -1,0 +1,5 @@
+tail -5 /etc/passwd
+ls > files.txt
+chmod 700 files.txt
+useradd dac2
+chgrp dac2 files.txt
